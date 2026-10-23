@@ -1,0 +1,16 @@
+stat,method,games,MAE,bias
+points,rolling_3,156,5.355,-0.047
+points,rolling_5,156,5.085,-0.075
+points,rolling_10,156,4.987,-0.064
+points,season,156,5.056,0.117
+points,league,156,5.641,0.257
+rebounds,rolling_3,156,1.808,0.051
+rebounds,rolling_5,156,1.763,0.073
+rebounds,rolling_10,156,1.69,0.127
+rebounds,season,156,1.648,0.24
+rebounds,league,156,1.768,0.206
+assists,rolling_3,156,1.278,-0.017
+assists,rolling_5,156,1.257,0.007
+assists,rolling_10,156,1.193,0.023
+assists,season,156,1.18,-0.003
+assists,league,156,1.323,0.071

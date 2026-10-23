@@ -1,0 +1,10 @@
+stat,method,games,MAE,bias
+points,rolling_3,75,5.36,0.08
+points,rolling_5,75,4.984,0.017
+points,rolling_10,75,4.833,-0.18
+rebounds,rolling_3,75,1.933,-0.067
+rebounds,rolling_5,75,1.785,-0.094
+rebounds,rolling_10,75,1.715,-0.083
+assists,rolling_3,75,1.271,0.062
+assists,rolling_5,75,1.249,0.062
+assists,rolling_10,75,1.2,0.003

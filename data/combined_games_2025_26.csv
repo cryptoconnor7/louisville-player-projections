@@ -1,0 +1,175 @@
+player,date,opponent,home,minutes,points,rebounds,assists
+Mikel Brown Jr.,2025-11-03,SCST,1,18,11,3,6
+Mikel Brown Jr.,2025-11-06,JACKST,1,26,18,5,9
+Mikel Brown Jr.,2025-11-11,UK,1,33,29,2,5
+Mikel Brown Jr.,2025-11-15,OHIO,1,27,19,0,7
+Mikel Brown Jr.,2025-11-21,CINCY,0,31,22,5,6
+Mikel Brown Jr.,2025-11-24,EMICH,1,24,11,3,2
+Mikel Brown Jr.,2025-11-26,NJTECH,1,25,9,5,7
+Mikel Brown Jr.,2025-12-03,ARK,0,34,22,5,3
+Mikel Brown Jr.,2025-12-06,IND,0,27,9,1,3
+Mikel Brown Jr.,2025-12-13,MEMP,1,25,16,1,3
+Mikel Brown Jr.,2026-01-24,VATECH,1,28,20,3,6
+Mikel Brown Jr.,2026-01-26,DUKE,0,34,7,2,4
+Mikel Brown Jr.,2026-01-31,SMU,1,29,20,3,4
+Mikel Brown Jr.,2026-02-04,ND,1,27,6,4,6
+Mikel Brown Jr.,2026-02-07,WAKE,0,33,12,2,8
+Mikel Brown Jr.,2026-02-09,NCST,1,34,45,9,2
+Mikel Brown Jr.,2026-02-14,BAYLOR,0,35,29,3,6
+Mikel Brown Jr.,2026-02-17,SMU,0,35,29,5,4
+Mikel Brown Jr.,2026-02-21,GATECH,1,31,19,4,2
+Mikel Brown Jr.,2026-02-23,UNC,0,33,24,3,2
+Mikel Brown Jr.,2026-02-28,CLEM,0,21,5,2,4
+Ryan Conwell,2025-11-03,SCST,1,19,12,3,2
+Ryan Conwell,2025-11-06,JACKST,1,27,19,8,1
+Ryan Conwell,2025-11-11,UK,1,32,24,1,2
+Ryan Conwell,2025-11-15,OHIO,1,27,22,6,3
+Ryan Conwell,2025-11-21,CINCY,0,34,25,5,2
+Ryan Conwell,2025-11-24,EMICH,1,20,7,6,1
+Ryan Conwell,2025-11-26,NJTECH,1,24,32,9,6
+Ryan Conwell,2025-12-03,ARK,0,33,15,1,4
+Ryan Conwell,2025-12-06,IND,0,32,21,4,2
+Ryan Conwell,2025-12-13,MEMP,1,26,17,2,2
+Ryan Conwell,2025-12-16,TENN,0,33,22,5,1
+Ryan Conwell,2025-12-20,MNTNA,1,31,14,5,2
+Ryan Conwell,2025-12-30,CAL,0,25,26,4,4
+Ryan Conwell,2026-01-02,STNFRD,0,35,18,7,2
+Ryan Conwell,2026-01-06,DUKE,1,34,24,7,1
+Ryan Conwell,2026-01-13,UVA,1,37,14,7,3
+Ryan Conwell,2026-01-17,PITT,0,30,24,6,6
+Ryan Conwell,2026-01-24,VATECH,1,31,15,6,1
+Ryan Conwell,2026-01-26,DUKE,0,37,18,3,3
+Ryan Conwell,2026-01-31,SMU,1,35,12,5,3
+Ryan Conwell,2026-02-04,ND,1,33,12,4,3
+Ryan Conwell,2026-02-07,WAKE,0,27,11,4,2
+Ryan Conwell,2026-02-09,NCST,1,30,31,7,6
+Ryan Conwell,2026-02-14,BAYLOR,0,31,14,4,4
+Ryan Conwell,2026-02-17,SMU,0,33,12,6,0
+Ryan Conwell,2026-02-21,GATECH,1,30,15,1,4
+Ryan Conwell,2026-02-23,UNC,0,28,23,2,1
+Ryan Conwell,2026-02-28,CLEM,0,29,15,5,2
+Ryan Conwell,2026-03-03,CUSE,1,32,23,7,3
+Ryan Conwell,2026-03-07,MIAMI,0,37,24,2,2
+Isaac McKneely,2025-11-03,SCST,1,22,17,4,0
+Isaac McKneely,2025-11-06,JACKST,1,27,8,0,2
+Isaac McKneely,2025-11-11,UK,1,31,9,5,2
+Isaac McKneely,2025-11-15,OHIO,1,25,15,6,0
+Isaac McKneely,2025-11-21,CINCY,0,26,3,4,1
+Isaac McKneely,2025-11-24,EMICH,1,27,17,3,0
+Isaac McKneely,2025-11-26,NJTECH,1,22,17,3,0
+Isaac McKneely,2025-12-03,ARK,0,30,11,4,1
+Isaac McKneely,2025-12-06,IND,0,30,15,3,1
+Isaac McKneely,2025-12-13,MEMP,1,23,2,1,4
+Isaac McKneely,2025-12-16,TENN,0,35,5,1,0
+Isaac McKneely,2025-12-20,MNTNA,1,33,16,5,0
+Isaac McKneely,2025-12-30,CAL,0,35,11,1,3
+Isaac McKneely,2026-01-02,STNFRD,0,37,17,3,3
+Isaac McKneely,2026-01-06,DUKE,1,31,6,4,1
+Isaac McKneely,2026-01-10,BC,1,34,13,1,2
+Isaac McKneely,2026-01-13,UVA,1,37,23,5,0
+Isaac McKneely,2026-01-17,PITT,0,34,11,4,2
+Isaac McKneely,2026-01-24,VATECH,1,27,8,3,1
+Isaac McKneely,2026-01-26,DUKE,0,29,6,2,1
+Isaac McKneely,2026-01-31,SMU,1,24,14,3,1
+Isaac McKneely,2026-02-04,ND,1,27,13,2,0
+Isaac McKneely,2026-02-07,WAKE,0,23,11,0,0
+Isaac McKneely,2026-02-09,NCST,1,26,8,2,2
+Isaac McKneely,2026-02-14,BAYLOR,0,19,2,1,0
+Isaac McKneely,2026-02-17,SMU,0,25,6,2,4
+Isaac McKneely,2026-02-21,GATECH,1,23,14,2,0
+Isaac McKneely,2026-02-23,UNC,0,24,0,2,2
+Isaac McKneely,2026-02-28,CLEM,0,27,6,4,0
+Isaac McKneely,2026-03-03,CUSE,1,34,16,4,1
+Isaac McKneely,2026-03-07,MIAMI,0,36,15,4,5
+Adrian Wooley,2025-11-03,SCST,1,16,5,2,2
+Adrian Wooley,2025-11-06,JACKST,1,18,9,5,1
+Adrian Wooley,2025-11-11,UK,1,17,9,5,0
+Adrian Wooley,2025-11-15,OHIO,1,24,11,6,2
+Adrian Wooley,2025-11-21,CINCY,0,20,6,4,0
+Adrian Wooley,2025-11-24,EMICH,1,24,9,4,1
+Adrian Wooley,2025-11-26,NJTECH,1,22,15,5,1
+Adrian Wooley,2025-12-03,ARK,0,13,5,5,2
+Adrian Wooley,2025-12-06,IND,0,18,0,6,2
+Adrian Wooley,2025-12-13,MEMP,1,25,15,3,3
+Adrian Wooley,2025-12-16,TENN,0,34,19,4,1
+Adrian Wooley,2025-12-20,MNTNA,1,25,6,6,4
+Adrian Wooley,2025-12-30,CAL,0,27,21,4,2
+Adrian Wooley,2026-01-02,STNFRD,0,16,3,1,1
+Adrian Wooley,2026-01-06,DUKE,1,32,11,5,0
+Adrian Wooley,2026-01-10,BC,1,35,16,6,4
+Adrian Wooley,2026-01-13,UVA,1,29,5,5,4
+Adrian Wooley,2026-01-17,PITT,0,26,12,2,2
+Adrian Wooley,2026-01-24,VATECH,1,21,6,3,2
+Adrian Wooley,2026-01-26,DUKE,0,24,3,3,0
+Adrian Wooley,2026-01-31,SMU,1,11,2,1,0
+Adrian Wooley,2026-02-04,ND,1,18,6,6,2
+Adrian Wooley,2026-02-07,WAKE,0,23,3,5,2
+Adrian Wooley,2026-02-09,NCST,1,11,4,2,2
+Adrian Wooley,2026-02-14,BAYLOR,0,10,7,0,0
+Adrian Wooley,2026-02-17,SMU,0,15,8,1,2
+Adrian Wooley,2026-02-21,GATECH,1,14,3,2,1
+Adrian Wooley,2026-02-23,UNC,0,12,4,5,0
+Adrian Wooley,2026-02-28,CLEM,0,24,17,4,1
+Adrian Wooley,2026-03-03,CUSE,1,26,8,7,2
+Adrian Wooley,2026-03-07,MIAMI,0,28,15,4,6
+Sananda Fru,2025-11-03,SCST,1,22,9,8,1
+Sananda Fru,2025-11-06,JACKST,1,19,12,5,0
+Sananda Fru,2025-11-11,UK,1,25,10,7,3
+Sananda Fru,2025-11-15,OHIO,1,21,14,5,2
+Sananda Fru,2025-11-21,CINCY,0,24,11,4,0
+Sananda Fru,2025-11-24,EMICH,1,15,5,6,0
+Sananda Fru,2025-11-26,NJTECH,1,19,8,6,1
+Sananda Fru,2025-12-03,ARK,0,29,14,8,1
+Sananda Fru,2025-12-06,IND,0,29,12,7,1
+Sananda Fru,2025-12-13,MEMP,1,21,11,6,1
+Sananda Fru,2025-12-16,TENN,0,28,4,5,3
+Sananda Fru,2025-12-20,MNTNA,1,23,18,8,2
+Sananda Fru,2025-12-30,CAL,0,26,13,14,2
+Sananda Fru,2026-01-02,STNFRD,0,26,15,8,1
+Sananda Fru,2026-01-06,DUKE,1,14,2,4,2
+Sananda Fru,2026-01-10,BC,1,28,19,13,1
+Sananda Fru,2026-01-13,UVA,1,24,6,5,0
+Sananda Fru,2026-01-17,PITT,0,23,12,5,2
+Sananda Fru,2026-01-24,VATECH,1,27,13,10,2
+Sananda Fru,2026-01-26,DUKE,0,24,4,4,2
+Sananda Fru,2026-01-31,SMU,1,17,3,3,2
+Sananda Fru,2026-02-04,ND,1,18,12,5,1
+Sananda Fru,2026-02-07,WAKE,0,25,17,6,2
+Sananda Fru,2026-02-09,NCST,1,18,6,4,1
+Sananda Fru,2026-02-14,BAYLOR,0,27,8,7,1
+Sananda Fru,2026-02-17,SMU,0,20,7,8,1
+Sananda Fru,2026-02-21,GATECH,1,17,2,4,0
+Sananda Fru,2026-02-23,UNC,0,16,3,5,2
+Sananda Fru,2026-02-28,CLEM,0,24,10,6,2
+Sananda Fru,2026-03-03,CUSE,1,21,8,3,1
+Sananda Fru,2026-03-07,MIAMI,0,23,5,3,2
+J'Vonne Hadley,2025-11-03,SCST,1,21,13,9,2
+J'Vonne Hadley,2025-11-11,UK,1,27,9,8,3
+J'Vonne Hadley,2025-11-15,OHIO,1,25,11,4,2
+J'Vonne Hadley,2025-11-21,CINCY,0,20,2,4,1
+J'Vonne Hadley,2025-11-24,EMICH,1,24,9,4,2
+J'Vonne Hadley,2025-11-26,NJTECH,1,25,12,5,0
+J'Vonne Hadley,2025-12-03,ARK,0,28,7,6,0
+J'Vonne Hadley,2025-12-06,IND,0,33,15,6,1
+J'Vonne Hadley,2025-12-13,MEMP,1,18,9,1,3
+J'Vonne Hadley,2025-12-16,TENN,0,27,9,4,0
+J'Vonne Hadley,2025-12-20,MNTNA,1,28,13,4,3
+J'Vonne Hadley,2025-12-30,CAL,0,31,11,9,3
+J'Vonne Hadley,2026-01-02,STNFRD,0,32,14,7,0
+J'Vonne Hadley,2026-01-06,DUKE,1,30,7,5,4
+J'Vonne Hadley,2026-01-10,BC,1,30,11,4,3
+J'Vonne Hadley,2026-01-13,UVA,1,35,11,5,1
+J'Vonne Hadley,2026-01-17,PITT,0,31,17,7,5
+J'Vonne Hadley,2026-01-24,VATECH,1,31,14,6,2
+J'Vonne Hadley,2026-01-26,DUKE,0,30,11,5,0
+J'Vonne Hadley,2026-01-31,SMU,1,29,10,4,1
+J'Vonne Hadley,2026-02-04,ND,1,3,0,1,0
+J'Vonne Hadley,2026-02-07,WAKE,0,22,15,5,1
+J'Vonne Hadley,2026-02-09,NCST,1,22,9,3,0
+J'Vonne Hadley,2026-02-14,BAYLOR,0,31,20,5,3
+J'Vonne Hadley,2026-02-17,SMU,0,30,14,9,1
+J'Vonne Hadley,2026-02-21,GATECH,1,27,17,5,3
+J'Vonne Hadley,2026-02-23,UNC,0,31,14,6,1
+J'Vonne Hadley,2026-02-28,CLEM,0,34,12,7,1
+J'Vonne Hadley,2026-03-03,CUSE,1,29,19,5,3
+J'Vonne Hadley,2026-03-07,MIAMI,0,32,16,2,2

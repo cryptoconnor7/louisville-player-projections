@@ -1,0 +1,6 @@
+    stat  games_scored  MAE  bias (proj - actual)
+  points            27 2.98                  0.01
+rebounds            27 1.37                  0.45
+ assists            27 1.37                  0.09
+
+Saved: hadley_projections.csv

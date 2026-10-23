@@ -1,0 +1,6 @@
+    stat  games_scored  MAE  bias (proj - actual)
+  points            28 3.71                  0.37
+rebounds            28 1.99                  0.25
+ assists            28 0.77                 -0.02
+
+Saved: fru_projections.csv

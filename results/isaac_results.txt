@@ -1,0 +1,6 @@
+    stat  games_scored  MAE  bias (proj - actual)
+  points            28 4.87                  0.02
+rebounds            28 1.20                 -0.01
+ assists            28 1.14                 -0.05
+
+Saved: isaac_projections.csv

@@ -1,0 +1,6 @@
+    stat  games_scored  MAE  bias (proj - actual)
+  points            28 3.87                  0.03
+rebounds            28 1.47                  0.06
+ assists            28 1.16                 -0.20
+
+Saved: wooley_projections.csv

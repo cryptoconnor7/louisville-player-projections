@@ -1,0 +1,6 @@
+    stat  games_scored  MAE  bias (proj - actual)
+  points            18 6.95                  0.48
+rebounds            18 1.69                  0.02
+ assists            18 2.04                  0.71
+
+Saved: mikel_projections.csv
