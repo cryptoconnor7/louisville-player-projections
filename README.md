@@ -49,6 +49,21 @@ All methods are scored on the same games (each player needs at least 3 prior gam
 
 Per-player details are in `results/evaluation/per_player_comparison.csv`.
 
+## Line Calibration (Prop-Style Check)
+PrizePicks-style props are set as lines. As a check, each player's 10-game rolling average was treated as the line, and the number of games where the player finished over or under it was counted across all 156 scored games.
+
+| Stat | Over | Under | Push (exact) |
+|---|---|---|---|
+| Points | 50.0% | 49.4% | 0.6% |
+| Rebounds | 45.5% | 51.3% | 3.2% |
+| Assists | 42.9% | 50.6% | 6.4% |
+
+**What it shows:** A fair line should finish over about half the time. Points are well calibrated. Assists finished over only 43% of the time, which suggests a rolling average sits slightly high for assists in this sample.
+
+**Caution:** These are small samples. The assists gap is about 1.8 standard errors from 50%, which is suggestive but not conclusive. Per-player rates (for example, 63% over on points for J'Vonne Hadley) rest on 27 to 28 games and should not be read as reliable.
+
+Run with `python code/line_calibration.py`. Output is in `results/evaluation/line_calibration_*.csv`.
+
 ## Limitations
 - **Small sample:** 156 scored games across six players, and only 81 in the held-out test. Differences of 0.05 MAE or less are within the noise. Results describe this method on this data, not a general accuracy claim.
 - **Page header:** The CBS pages show each player's current team, which can differ from the 2025–26 season (for example, Brooklyn Nets and Miami Heat for NBA-linked pages, and Marquette for Sananda Fru). The game tables are the 2025–26 Louisville games, against ACC and Big 12 opponents.
@@ -64,6 +79,7 @@ Per-player details are in `results/evaluation/per_player_comparison.csv`.
 
 ## Folder Contents
 - `code/evaluate.py`: runs every comparison and the train/test split
+- `code/line_calibration.py`: checks how often players finish over a rolling-average line
 - `code/projection_model.py`: the original projection script (5-game rolling average with a minutes adjustment)
 - `data/`: per-player and combined game logs
 - `results/evaluation/`: all comparison tables, including per-player results and every projection
