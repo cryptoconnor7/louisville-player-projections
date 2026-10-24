@@ -1,0 +1,10 @@
+stat,method,games,MAE,bias
+passing_yds,rolling_3,27,62.284,-1.296
+passing_yds,rolling_5,27,57.738,-1.788
+passing_yds,rolling_10,27,55.33,-3.861
+passing_tds,rolling_3,27,1.099,0.136
+passing_tds,rolling_5,27,1.077,0.159
+passing_tds,rolling_10,27,1.139,0.21
+rushing_yds,rolling_3,27,24.988,2.0
+rushing_yds,rolling_5,27,23.911,2.207
+rushing_yds,rolling_10,27,22.461,3.278

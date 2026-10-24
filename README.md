@@ -16,10 +16,12 @@ All methods are scored on the same games (each player needs at least 3 prior gam
 **Metrics:** Mean absolute error (MAE), bias (projected minus actual), and the percentage of games where the projection landed within one MAE of the actual result.
 
 ## Data
+**Data verification:** All 156 scored games (2025–26 regular season, six players) were checked against official box scores. No discrepancies were found.
+
 - Source: CBS Sports player game log pages, 2025–26 regular-season games only. Postseason games are excluded.
 - Players: Mikel Brown Jr., Ryan Conwell, Isaac McKneely, Adrian Wooley, Sananda Fru, and J'Vonne Hadley, all Louisville players in 2025–26. Each player's first 3 games are used as warm-up, so 156 games are scored in total.
 - Home/away: "vs" treated as home (1), "@" as away (0). Neutral-site games were not separately identified.
-- Data was entered by hand from the source tables. Cross-check against box scores before relying on any single number.
+- Data was entered by hand from the source tables and then verified against official box scores, as described above.
 
 ## Results
 
@@ -89,3 +91,33 @@ Run with `python code/line_calibration.py`. Output is in `results/evaluation/lin
 1. Install Python 3 and pandas (`pip install pandas`).
 2. From the project folder, run `python code/evaluate.py`.
 3. The tables are written to `results/evaluation/`. Results will match the tables above.
+
+## NFL Extension: Lamar Jackson, 2022 to 2025 Regular Seasons
+
+The same method was applied to Lamar Jackson's regular-season games, using passing yards, passing touchdowns, and rushing yards. Data: CBS Sports game logs. Files: `data/nfl/lamar_jackson_2022.csv`, `lamar_jackson_2023.csv`, `lamar_jackson_2024_25.csv`, the combined `data/nfl/lamar_jackson_2022_25.csv`, and `code/nfl_evaluate.py`. Output: `results/nfl/`.
+
+**Data notes**
+- 2022: 12 games played. Five games with no stats are excluded (Dec 11, Dec 17, Dec 24, Jan 1, Jan 8). The Dec 4, 2022 game against Denver is included even though it's partial (he left early).
+- 2023: 16 games played. The Jan 6, 2024 game is excluded because he did not play.
+- 2024: 17 games. 2025: 13 games played. Four 2025 games (Oct 5, Oct 12, Oct 26, Dec 27) are excluded because he did not play.
+- Postseason games are excluded.
+- Warm-up: the first 3 games of each season are not scored, so 55 games are scored in total.
+- Split: games before September 22, 2024 (27 games) were used to choose the window. Games from that date on (28 games) were used for the final test.
+- Home/away: "vs" = home, "@" = away.
+- With one player, the "league average" equals the season average, so it adds no separate information.
+
+**Held-out test (28 games, window chosen on the first 27 games)**
+
+| Stat | Rolling average MAE | Season-average MAE | Notes |
+|---|---|---|---|
+| Passing yards | 48.7 (10-game) | 49.2 | Essentially tied |
+| Passing TDs | **1.16** (5-game) | 1.23 | Recent form better |
+| Rushing yards | **21.8** (10-game) | 24.3 | Recent form better |
+
+**All 55 scored games:** The 10-game average was slightly better than the season average on passing yards (51.9 vs 52.8). The 5-game average was best on passing TDs (1.12 vs 1.18) and rushing yards (21.5 vs 23.6).
+
+**What it shows:** With four seasons, recent form has a small, consistent edge on touchdowns and rushing yards, and passing yards are a tie. The season average is no longer clearly better on touchdowns, which changed from the three-season result. The gaps are small, and the best window differs from stat to stat, so these findings are suggestive. Both methods projected his 2025 rushing too high, which reflects a drop in rushing production.
+
+**Caution:** 28 test games is still a small sample, the window was chosen on a single split, and quarterback stats depend heavily on opponent and game script, which the model doesn't account for.
+
+Run with `python code/nfl_evaluate.py`.

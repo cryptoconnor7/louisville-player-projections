@@ -1,0 +1,16 @@
+stat,method,games,MAE,bias
+passing_yds,rolling_3,55,57.739,2.648
+passing_yds,rolling_5,55,53.14,3.62
+passing_yds,rolling_10,55,51.937,5.159
+passing_yds,season,55,52.763,-3.652
+passing_yds,league,55,52.763,-3.652
+passing_tds,rolling_3,55,1.176,0.061
+passing_tds,rolling_5,55,1.118,0.1
+passing_tds,rolling_10,55,1.175,0.192
+passing_tds,season,55,1.178,0.029
+passing_tds,league,55,1.178,0.029
+rushing_yds,rolling_3,55,21.752,3.085
+rushing_yds,rolling_5,55,21.487,3.778
+rushing_yds,rolling_10,55,22.132,6.031
+rushing_yds,season,55,23.553,11.948
+rushing_yds,league,55,23.553,11.948
